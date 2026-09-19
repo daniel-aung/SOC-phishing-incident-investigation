@@ -1,0 +1,8 @@
+09:14:03 user=kevin result=failed src_ip=203.0.113.44
+09:14:19 user=kevin result=failed src_ip=203.0.113.44
+09:14:39 user=kevin mfa=approved device=Kevin-iPhone
+09:14:41 user=kevin result=success src_ip=203.0.113.44
+
+context:
+src_ip=203.0.113.44 first_seen_for_user=true
+registered_mfa_device=Kevin-iPhone
