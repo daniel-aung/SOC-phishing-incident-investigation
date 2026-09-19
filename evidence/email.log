@@ -1,0 +1,14 @@
+09:09:00
+recipient=kevin@company.local
+sender=accounts@vendor-payments.example
+subject="Updated Supplier Payment Details"
+attachment=Supplier_Details.docm
+
+SPF=pass
+DKIM=pass
+sender_reputation=unknown
+
+09:16:00
+user=kevin
+action=opened_attachment
+file=Supplier_Details.docm
