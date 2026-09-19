@@ -1,0 +1,11 @@
+09:17:32
+host=KEVIN-LAPTOP
+process=curl.exe
+dst_ip=198.51.100.72
+dst_port=443
+bytes_out=913204
+bytes_in=842
+
+threat_intelligence:
+198.51.100.72 reputation=unknown
+vendor-payments.example reputation=unknown
