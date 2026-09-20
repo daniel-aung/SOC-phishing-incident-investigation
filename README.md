@@ -36,3 +36,18 @@ The investigation also focuses on distinguishing confirmed facts from reasonable
 - File telemetry
 - Network telemetry
 - Business context
+
+## Skills Demonstrated
+
+- SOC alert triage and incident investigation
+- Multi-source log and telemetry correlation
+- Authentication analysis
+- Phishing email analysis
+- EDR and process-tree analysis
+- File and network telemetry analysis
+- Identification of suspicious process chains
+- Evidence-based reasoning and analyst judgment
+- Distinguishing confirmed facts, inferences, and unproven assumptions
+- Severity, confidence, and priority assessment
+- Escalation and incident-response recommendations
+- Technical incident documentation
