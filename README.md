@@ -4,6 +4,17 @@ A multi-source SOC investigation of a synthetic phishing incident involving auth
 
 > **Disclaimer:** This project is based on a synthetic cybersecurity incident created for defensive security training. All users, domains, IP addresses, logs, and events are fictional or reserved for documentation purposes.
 
+## Project Navigation
+
+- [Incident Report](incident-report.md)
+- [Incident Timeline](timeline.md)
+- [Investigation Indicators](investigation-indicators.md)
+- [Authentication Evidence](evidence/authentication.log)
+- [Email Evidence](evidence/email.log)
+- [Endpoint Evidence](evidence/endpoint.log)
+- [File Evidence](evidence/file.log)
+- [Network Evidence](evidence/network.log)
+
 ## Overview
 
 This project was created to develop and demonstrate practical defensive security and SOC investigation skills using a synthetic incident scenario. It demonstrates log analysis, alert triage, multi-source telemetry correlation, EDR process-tree analysis, and evidence-based reasoning without making unsupported assumptions.
