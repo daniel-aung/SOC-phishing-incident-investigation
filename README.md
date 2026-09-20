@@ -66,3 +66,12 @@ SOC-phishing-incident-investigation/
     ├── endpoint.log
     ├── file.log
     └── network.log
+```
+
+### File Purpose
+
+- `README.md` — project overview, navigation, skills demonstrated, and incident summary.
+- `incident-report.md` — full analyst assessment, findings, evidence reasoning, and response recommendations.
+- `timeline.md` — chronological sequence of key incident events.
+- `investigation-indicators.md` — observed indicators relevant to the investigation.
+- `evidence/` — synthetic authentication, email, endpoint, file, and network telemetry used in the analysis.
