@@ -51,3 +51,18 @@ The investigation also focuses on distinguishing confirmed facts from reasonable
 - Severity, confidence, and priority assessment
 - Escalation and incident-response recommendations
 - Technical incident documentation
+
+## Repository Structure
+
+```text
+SOC-phishing-incident-investigation/
+├── README.md
+├── incident-report.md
+├── investigation-indicators.md
+├── timeline.md
+└── evidence/
+    ├── authentication.log
+    ├── email.log
+    ├── endpoint.log
+    ├── file.log
+    └── network.log
